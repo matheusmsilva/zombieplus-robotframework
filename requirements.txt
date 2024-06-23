@@ -1,0 +1,12 @@
+Faker==25.9.1
+psycopg2==2.9.9
+requests==2.31.0
+requests-toolbelt==1.0.0
+robotframework==7.0.1
+robotframework-assertion-engine==3.0.3
+robotframework-browser==18.5.1
+robotframework-databaselibrary==1.4.4
+robotframework-jsonlibrary==0.5
+robotframework-pythonlibcore==4.4.1
+robotframework-requests==0.9.7
+python_dotenv=1.0.1
