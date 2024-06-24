@@ -23,10 +23,10 @@ Fill Information And Create Movie
     Fill Text    id=title    ${movie}[title]
     Fill Text    id=overview    ${movie}[overview]
 
-    Click    css=#select_company_id .react-select__indicator
+    Click    css=#select_company_id .react-select__value-container
     Click    //div[contains(@class, 'react-select__option') and text()='${movie}[company]']
 
-    Click    css=#select_year .react-select__indicator
+    Click    css=#select_year .react-select__value-container
     Click    //div[contains(@class, 'react-select__option') and text()='${movie}[release_year]']
 
     Upload File By Selector    

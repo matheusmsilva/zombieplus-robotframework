@@ -20,10 +20,10 @@ Fill Information And Create Serie
     Fill Text    id=title    ${serie}[title]
     Fill Text    id=overview    ${serie}[overview]
 
-    Click    css=#select_company_id .react-select__indicator
+    Click    css=#select_company_id .react-select__value-container
     Click    //div[contains(@class, 'react-select__option') and text()='${serie}[company]']
 
-    Click    css=#select_year .react-select__indicator
+    Click    css=#select_year .react-select__value-container
     Click    //div[contains(@class, 'react-select__option') and text()='${serie}[release_year]']
 
     Fill Text    css=input[name=seasons]    ${serie}[season]
