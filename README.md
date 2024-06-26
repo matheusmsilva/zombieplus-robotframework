@@ -35,12 +35,17 @@ npm run dev
 pip install -r requirements.txt
 ```
 
-4. Run tests
+4. Init playwright browsers
+```
+rfbrowser init chromium
+```
+
+5. Run tests
 ```
 robot -d ./logs tests
 ```
 
-## Project architecture
+🤖 ## Project architecture
 
 This project uses Page Object Model Design pattern, which involves creating resources based on your application's pages. Each class is responsible for all methods and elements related to its page.
 It is implemented to run on Github Actions by triggering manually.
